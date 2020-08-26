@@ -17,7 +17,7 @@ const FruitIcon = memo(() => {
   const [fruit] = useContext(FruitContext);
   return (
     <img
-      src={translateIcon(fruit.name)}
+      src={translateIcon(fruit?.name)}
       className="FruitIcon"
       alt="fruit_icon"
     />
